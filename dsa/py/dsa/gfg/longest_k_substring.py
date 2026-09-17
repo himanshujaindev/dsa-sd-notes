@@ -1,15 +1,20 @@
 """
 https://www.geeksforgeeks.org/dsa/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
 T: O(n)
-Even though there's a nested while loop inside the outer while loop, this is not O(n²). Here's why:
+Even though there's a nested while loop inside the while j < n loop, this is a classic sliding window pattern, so the total work is still linear.
 
-The outer pointer j moves from 0 to n-1 exactly once → n steps total.
-The inner pointer i only ever moves forward (it never resets or decreases). Across the entire execution, i can advance at most n times total, since it's bounded by j.
+The outer loop advances j from 0 to n-1 — that's n iterations.
+The inner while unique > k loop advances i. Crucially, i only ever moves forward, and it can move forward at most n times total across the entire run of the algorithm (it never resets or goes backward).
 
-So even though the inner loop is written inside the outer loop, the total work done by both pointers combined is O(n) + O(n) = O(n). This is the classic two-pointer / sliding window amortized analysis — each element is added to the window once (by j) and removed at most once (by i).
+So across the whole function:
 
+j is incremented at most n times.
+i is incremented at most n times.
+
+That gives you O(n) + O(n) = O(2n) = O(n) total, not O(n²). This technique (bounding total inner-loop work across all outer iterations, rather than per-iteration) is called amortized analysis.
 
 S: O(1)
+freq is an array of fixed size 26 (for lowercase letters a–z), regardless of the input size n.
 """
 
 
