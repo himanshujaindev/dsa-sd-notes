@@ -23,8 +23,9 @@ uv-based python virtual env
 
 2. VS Code Extension - [java](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java), [py-format](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
 
-<img width="400" alt="py-extension" src="https://github.com/user-attachments/assets/b7b511d0-8514-4d56-a938-f2feb82339be" />
-<img width="400" alt="java-extension" src="https://github.com/user-attachments/assets/034e0831-b44c-4d83-bdd3-238a050cee98" />
+<img width="400" alt="py-extension" src="https://github.com/user-attachments/assets/040cc879-5095-41f0-9ec0-7a7b526b4244" />
+<img width="400" alt="java-extension" src="https://github.com/user-attachments/assets/e6069eaa-9dfa-406d-8f15-876552ed3799" />
+
 
 3. Enable Format on Save option
 4. Update Keyboard shortcut:<br>
