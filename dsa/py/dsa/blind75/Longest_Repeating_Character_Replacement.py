@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-repeating-character-replacement/
+
 """
 Logic:
 - Replace less frequent char in a given window

@@ -1,1 +1,1 @@
-https://takeuforward.org/interviews/blind-75-leetcode-problems-detailed-video-solutions
+https://takeuforward.org/prep-hub/blind-75?page=sheet

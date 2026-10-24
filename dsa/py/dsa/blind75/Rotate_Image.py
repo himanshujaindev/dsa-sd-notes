@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/rotate-image/
+
 """
 Find the lowest num; Maximize the difference
 o(n); o(1)
@@ -12,7 +14,7 @@ class Solution:
 
         # transpose of a matrix
         for i in range(len(matrix)):
-            for j in range(i+1, len(matrix)):
+            for j in range(i + 1, len(matrix)):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
         # reverse row

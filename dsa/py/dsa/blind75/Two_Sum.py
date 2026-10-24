@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/two-sum/
+
 """
 Brute force: o(n2); o(1)
 Hashing (target - nums[i]): o(n); o(n)
