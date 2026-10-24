@@ -47,6 +47,7 @@ Author: himanshujaindev <dev.himanshujain@gmail.com>
 brew install tree
 ```
 ```
+cd dsa
 (tree -P '*.java|*.py') | sed '1s/^/```\n/' | sed '$a\
 ```' > FILES.md
 ```
