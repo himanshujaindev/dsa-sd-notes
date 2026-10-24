@@ -18,7 +18,7 @@ Java(TM) SE Runtime Environment (build 24+36-3646)
 Java HotSpot(TM) 64-Bit Server VM (build 24+36-3646, mixed mode, sharing)
 
 uv-based python virtual env
-❯ setup_venv 3.12
+❯ setup_venv 3.14.0
 ```
 
 2. VS Code Extension - [java](https://marketplace.visualstudio.com/items?itemName=Oracle.oracle-java), [py-format](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
